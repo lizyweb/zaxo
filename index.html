@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@YourTwitterHandle">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="URL_TO_IMAGE">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="URL_TO_IMAGE">
+    <meta property="og:url" content="URL_TO_YOUR_WEBSITE">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="">
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/logo1.png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
+
+    <!-- Assets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/animate/animate.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/aos/aos.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Zaxo Clothing</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark text-white d-none d-lg-flex topbar" id="home">
+        <div class="container-fluid py-3">
+            <div class="d-flex align-items-center">
+                <small class="ms-4"><i class="fa fa-envelope me-3"></i><a href="mailto:zaxoclothing@gmail.com" style="color: white;">zaxoclothing@gmail.com</a></small>
+                <small class="ms-4"><i class="fa fa-phone-alt me-3"></i><a href="tel:9087100225" style="color: white;">+91 90871 00225</a></small>
+                <!-- <div class="ms-auto d-flex align-items-center">
+                    <div class="ms-3 d-flex icons">
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Main Header Start -->
+    <div class="sticky-top">
+        <div class="main-header-area" style="height: 80px;">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container-fluid">
+                    <nav class="classy-navbar justify-content-between" id="robertoNav">
+
+                        <a class="nav-brand" href="index.html"><img src="img/logo.png" height="70px"  alt=""></a>
+
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <div class="classy-menu">
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#">Products</a>
+                                        <ul class="dropdown dropdown-laptop">
+                                            <li><a href="health.html">Healthcare Uniforms</a></li>
+                                            <li><a href="corp.html">Corporate Uniforms</a></li>
+                                            <li><a href="ind.html">Industry Uniforms</a></li>
+                                            <li><a href="hospitality.html">Hospitality Uniforms</a></li>
+                                            <!-- <li><a href="auto.html">Automobile Uniforms</a></li> -->
+                                            <li><a href="tshirt.html">T-Shirt</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Services</a>
+                                        <ul class="dropdown dropdown-laptop">
+                                            <li><a href="embroidery-and-printing.html">Embroidery and Printing</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- <li><a href="">Gallery</a></li> -->
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+
+                                <!-- Book Now -->
+                                <div class="book-now-btn ml-3 ml-lg-5">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Booking Now</a>
+                                </div>
+
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Area End -->
+
+
+    <!--Main-slider--> 
+    <div class="container-fluid px-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- <img class="w-100" src="img/slide1.png" alt="Image" height="700px" style="object-fit: cover;"> -->
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/slide1.png" alt="Image" style="object-fit: cover;">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7 ps-lg-5  text-start">
+                                    <p class="fs-4 text-white animated slideInRight">Welcome to
+                                        <strong>Zaxo Clothing</strong>
+                                    </p>
+                                    <h1 class="display-1 text-white mb-4 animated slideInRight">Trendy Styles for Everyday Comfort.</h1>
+                                    <a href="#about"
+                                        class="btn rounded-pill py-3 px-5 animated slideInRight"><b>Know Us</b></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/slider-2-new1.jpg" alt="Image" style="object-fit: cover;">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 ps-lg-5  text-center">
+                                    <p class="fs-4 text-white animated slideInLeft">Fashion Forward Elegance</p>
+                                    <h1 class="display-1 text-white mb-5 animated slideInLeft">Your Gateway to Contemporary Style</h1>
+                                    <a href="#categories"
+                                        class="btn rounded-pill py-3 px-5 animated slideInLeft"><b>Our Service</b></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/products/Blazers-&-Suits.jpg" alt="Image" style="object-fit: cover;">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-end">
+                                <div class="col-lg-7 ps-lg-5 text-end">
+                                    <p class="fs-4 text-white animated slideInLeft">Style Redefined, Trends Redesigned</p>
+                                    <h1 class="display-1 text-white mb-4 animated slideInLeft">Effortless Elegance, Stand Out</h1>
+                                    <a href="#contact"
+                                        class="btn rounded-pill py-3 px-5 animated slideInLeft"><b>Contact Us</b></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+      <!--/#main-slider-->
+
+
+      <div class="container-fluid pb-5 wow fadeInUp" id="about">
+        <div class="container py-5">
+
+            <div class="wow fadeInUp text-center pb-3" data-wow-delay="0.1s">
+                <h1 class="section-title ff-secondary text-center fw-normal">About Us</h1>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.9s" data-aos="fade-up" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="sub-img position-absolute w-100 h-100 wow zoomIn" height="300px" data-wow-delay="0.1s" src="img/slide1.png" style="object-fit: contain;">
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row g-5">
+                        <div class="about-sub justify-content-center col-12 wow zoomIn" data-wow-delay="0.4s" data-aos="fade-up">
+                            <h6 style="color: var(--brand);">What We Are?</h6>
+                            <p class="py-3">With Profound Comprehension of Uniforms Designing together with stitching excellence, have been reckoned to be a widely known Manufacturer, Supplier Industrial Uniforms & School Uniforms. We hold extensive industrial experience and excellent know how in uniform designing that is evident in our premium quality range of industrial Uniforms which are made out of very fine grade fabrics, and are thoroughly monitored at every stage of production. We also offer tailored fit and custom designed Uniforms in accordance with specifications in terms of size, patterns and colors.</p>
+                            <p>It has always been our pledge to dedicate our efforts to provide fashion forward designs, enhanced fabrics and "in stock" shopping. We are committed to providing you, our customer, and the best and most exciting garments available in our industry. We offer exciting and fashionable Uniform designs. In fact, we are tied up with some reputed Fashion Designers in Coimbatore, Tamilnadu who can gladly design your uniforms and accessories as per the latest trends and styles. We offer end to end solutions in this regard. Right from the stage of designing, to sampling, to measurements of sizes, to actual production all aspects will be handled professionally and enthusiastically.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="wow zoomIn" data-wow-delay="0.4s" data-aos="fade-up">We offer a friendly, organized and efficient in store shopping experience. Additionally, our team is always available to go onsite for uniform selling days. This commitment to our Schools & Corporates is the backbone of our Success.</p>
+            </div>
+        </div>
+    </div>  
+
+
+    <div class="container-fluid wow fadeInUp" id="about" style="background-color: var(--brand); color: white;">
+        <div class="container py-5">
+
+            <!-- <div class="wow fadeInUp text-center pb-5" data-wow-delay="0.1s">
+                <h1 class="section-title ff-secondary text-center fw-normal">About Us</h1>
+            </div> -->
+
+            <div class="row g-5">
+                <div class="col-lg-12">
+                    <div class="row g-5">
+                        <div class="about-sub text-center col-12 wow zoomIn" data-wow-delay="0.4s" data-aos="fade-up">
+                            <h3>Quality Commitments</h3>
+                            <p class="py-3">We follow a policy of utmost and serious Quality Standards and are uniquely identified by all in our industry for it. In order that you get your peace of mind when you buy a uniform from us, we have our unique Quality Control System Formulated in house, with the experience and expertise from serving you, customers, from the long years of association we have with you.</p>
+                            <p>With Quality Controls on Sizing, Patterns, Stitch, Accessories etc, we take the system very seriously and make sure we adhere to it. State of the Art machineries for computerized Embroidery of your Logos, Japanese Sewing Technology for stitching, latest apparel finishing technologies for finishes are used to create your high quality, Value for Money uniforms.</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+
+
+    <section id="categories" data-aos="fade-up">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro py-5 text-center">
+                        <h1 class="text-center s-one mb-2 pt-4">Categories</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center Cat-sub">
+                <div class="col-lg-4 col-md-6">
+                  <a href="health.html">
+                    <div class="team-member">
+                        <div class="image rounded">
+                            <img src="img/products/Healthcare-Uniforms.jpg" alt="" height="300px" width="100%">
+                            <div class="social-icons">
+                              <p>Elevate care with Zaxo's precision-crafted healthcare uniforms collection.</p>
+                              <a href="health.html" class="under-link"><i class='bx bx-play'></i>Learn More</a>
+                            </div>
+                            <div class="content">
+                              <h5>Healthcare Uniforms</h5>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <a href="corp.html">
+                  <div class="team-member">
+                      <div class="image rounded">
+                          <img src="img/products/Corporate-Uniforms.jpg" alt="" height="300px" width="100%">
+                          <div class="social-icons">
+                            <p>Elevate your corporate identity with Zaxo's impeccable uniforms.</p>
+                            <a href="corp.html" class="under-link"><i class='bx bx-play'></i>Learn More</a>
+                          </div>
+                          <div class="content">
+                            <h5>Corporate Uniforms</h5>
+                          </div>
+                          <div class="overlay"></div>
+                      </div>
+                  </div>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <a href="ind.html">
+                    <div class="team-member">
+                        <div class="image rounded">
+                            <img src="img/products/Industry-Uniforms.jpg" alt="" height="300px" width="100%">
+                            <div class="social-icons">
+                              <p>Elevate your workforce with Zaxo's tailored industry uniforms.</p>
+                              <a href="ind.html" class="under-link"><i class='bx bx-play'></i>Learn More</a>
+                            </div>
+                            <div class="content">
+                              <h5>Industry Uniforms</h5>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <a href="hospitality.html">
+                    <div class="team-member">
+                        <div class="image rounded">
+                            <img src="img/products/Hospitality-Uniforms.jpg" alt="" height="300px" width="100%">
+                            <div class="social-icons">
+                              <p>Elevate service with style in Zaxo's Hospitality Uniforms.</p>
+                              <a href="hospitality.html" class="under-link"><i class='bx bx-play'></i>Learn More</a>
+                            </div>
+                            <div class="content">
+                              <h5>Hospitality Uniforms</h4>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    </a>
+                  </div>
+                  <!-- <div class="col-lg-4 col-md-6">
+                    <a href="auto.html">
+                    <div class="team-member">
+                        <div class="image rounded">
+                            <img src="img/ind2.png" alt="" height="300px" width="100%">
+                            <div class="social-icons">
+                              <p>Drive excellence with Zaxo's stylish and professional automobile uniforms.</p>
+                              <a href="auto.html" class="under-link"><i class='bx bx-play'></i>Learn More</a>
+                            </div>
+                            <div class="content">
+                              <h5>Automobile Uniforms</h5>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    </a>
+                  </div> -->
+                  <div class="col-lg-4 col-md-6">
+                    <a href="tshirt.html">
+                    <div class="team-member">
+                        <div class="image rounded">
+                            <img src="img/products/T-Shirt.jpg" alt="" height="300px" width="100%">
+                            <div class="social-icons">
+                              <p>Elevate your style with Zaxo's trendsetting T-shirts collection.</p>
+                              <a href="tshirt.html" class="under-link"><i class='bx bx-play'></i>Learn More</a>
+                            </div>
+                            <div class="content">
+                              <h5>T-Shirt</h5>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    </a>
+                  </div>
+            </div>  
+        </div>
+    </section>
+
+
+    <!-- ======= Cta Section ======= -->
+    
+    <section id="cta" class="cta mt-5">
+    
+        <div class="container">
+    
+    
+    
+        <div class="row" data-aos="zoom-in">
+    
+            <div class="col-lg-9 text-center text-lg-start">
+    
+            <h3>Call Now</h3>
+    
+            <p>If you find yourself with any questions, concerns, or inquiries, please feel absolutely free to contact us. Our dedicated team is readily available to provide you with the assistance you need.</p>
+    
+            </div>
+    
+            <div class="col-lg-3 cta-btn-container text-center">
+    
+            <a class="cta-btn align-middle" href="tel:9087100225">Call Now</a>
+    
+            </div>
+    
+        </div>
+    
+    
+    
+        </div>
+    
+    </section><!-- End Cta Section -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid">
+            <div class="text-center">
+                <h5 class="section-title ff-secondary text-center fw-normal">Testimonial</h5>
+                <h1 class="mb-5">Client Review & Feedback</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item bg-transparent border rounded p-4 col-md-12">
+                    <!-- <img class="test-img img-fluid flex-shrink-0 rounded-circle" src="img/test-img.jpg" style="width: 60px; height: 60px;"> -->
+                    <!-- <i class="fa fa-quote-left fa-2x text-primary mb-3"></i> -->
+                    <p class="test-p text-center">Thank you Zaxo.I'm a physio, ordered 1set scrub. The quality of cloth excellent. All the stichting of name,logo show as original.And they are very helpful for any kind of change in style with in design time and before delivery.Highly recommend for any kind of scrub.</p>
+                    <div class="d-flex align-items-center text-center">
+                        
+                        <div>
+                            <h5 class="mb-1">Arindam Sasmal</h5>
+                            <!-- <small>Coimbatore</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-transparent border rounded p-4 col-md-12">
+                    <!-- <i class="fa fa-quote-left fa-2x text-primary mb-3"></i> -->
+                    <p class="test-p text-center">Excellent stitching and material is very good .I appreciate and exchange policy too which gave me a chance to exchange unique colour too Thanks a lot Zaxo. Will continue to message my friends too go ahead with Zaxo clothing.</p>
+                    <div class="d-flex align-items-center text-center">
+                        
+                        <div>
+                            <h5 class="mb-1">Ankita Chudasama</h5>
+                            <!-- <small>Coimbatore</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-transparent border rounded p-4 col-md-12">
+                    <!-- <i class="fa fa-quote-left fa-2x text-primary mb-3"></i> -->
+                    <p class="test-p text-center">It's extremely comfortable,  long lasting,  light weight and easy to wash and use. Apart from that the post sale support is highly appreciable.</p>
+                    <div class="d-flex align-items-center text-center">
+                        
+                        <div>
+                            <h5 class="mb-1">Aji Lal</h5>
+                            <!-- <small>Tirupur</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-transparent border rounded p-4 col-md-12">
+                    <!-- <i class="fa fa-quote-left fa-2x text-primary mb-3"></i> -->
+                    <p class="test-p text-center">I ordered doctors apron... It was delivered as committed... quality of the material is excellent ... very happy with zaxo.</p>
+                    <div class="d-flex align-items-center text-center">
+                        
+                        <div>
+                            <h5 class="mb-1">Surendra Babu</h5>
+                            <!-- <small>Mettupalayam</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-transparent border rounded p-4 col-md-12">
+                    <!-- <i class="fa fa-quote-left fa-2x text-primary mb-3"></i> -->
+                    <p class="test-p text-center">Very good quality and good material. Stiching also very good. For better fit provide your measurements and they customise it.</p>
+                    <div class="d-flex align-items-center text-center">
+                        
+                        <div>
+                            <h5 class="mb-1">Mita Patel</h5>
+                            <!-- <small>Salem</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-transparent border rounded p-4 col-md-12">
+                    <!-- <i class="fa fa-quote-left fa-2x text-primary mb-3"></i> -->
+                    <p class="test-p text-center">Thank you Zaxo!! The quality of the scrub was so good💯 and I got the exact color shade and the font design.Customer friendly.. and i highly suggest to my friends and colleagues.</p>
+                    <div class="d-flex align-items-center text-center">
+                        
+                        <div>
+                            <h5 class="mb-1">Achuu Geetha</h5>
+                            <!-- <small>Coimbatore</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-transparent border rounded p-4 col-md-12">
+                    <!-- <i class="fa fa-quote-left fa-2x text-primary mb-3"></i> -->
+                    <p class="test-p text-center">One of the good shops... affordable ...wonderful collections.....great quality...exceeding excellence in all aspects.</p>
+                    <div class="d-flex align-items-center text-center">
+                        
+                        <div>
+                            <h5 class="mb-1">Trikshana Sundaresan</h5>
+                            <!-- <small>Coimbatore</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-transparent border rounded p-4 col-md-12">
+                    <!-- <i class="fa fa-quote-left fa-2x text-primary mb-3"></i> -->
+                    <p class="test-p text-center">Great designs and Variety of Clothes are just Excellent!!✨And The Quality is the finest one💯Just go for it!!</p>
+                    <div class="d-flex align-items-center text-center">
+                        
+                        <div>
+                            <h5 class="mb-1">Jivitesh</h5>
+                            <!-- <small>Chennai</small> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+     <!-- Vendor Start -->
+     <div class="container-fluid mt-5 wow zoomIn" data-wow-delay="0.1s">
+        <div class="container py-5 mb-5">
+            <div class="bg-white">
+                <div class="owl-carousel vendor-carousel">
+                    <img src="img/img1.png" alt="">
+                    <img src="img/img2.png" alt="">
+                    <img src="img/img3.png" alt="">
+                    <img src="img/img4.png" alt="">
+                    <img src="img/img5.png" alt="">
+                    <img src="img/img6.png" alt="">
+                    <img src="img/img7.png" alt="">
+                    <img src="img/img8.png" alt="">
+                    <img src="img/img9.png" alt="">
+                    <img src="img/img10.png" alt="">
+                    <img src="img/img11.png" alt="">
+                    <img src="img/img12.png" alt="">
+                    <img src="img/img13.png" alt="">
+                    <img src="img/img14.png" alt="">
+                    <img src="img/img15.png" alt="">
+                    <img src="img/img16.png" alt="">
+                    <img src="img/img17.png" alt="">
+                    <img src="img/img18.png" alt="">
+                    <img src="img/img19.png" alt="">
+                    <img src="img/img20.png" alt="">
+                    <img src="img/img21.png" alt="">
+                    <img src="img/img22.png" alt="">
+                    <img src="img/img23.png" alt="">
+                    <img src="img/img24.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->
+
+    <!-- Contact Start -->
+    <div class="container-xxl py-5" id="contact">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-title ff-secondary text-center fw-normal">Contact Us</h5>
+                <h1 class="mb-5">Contact For Any Query</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-12">
+                    <div class="row gy-4 text-center">
+                        <div class="col-md-4 wow zoomIn" data-wow-delay="0.1s">
+                            <h5 class="section-title ff-secondary fw-normal pb-3">Mobile</h5>
+                            <p>
+                                <i class="fa fa-phone-alt text-brand me-2"></i>+91 90871 00223<br>
+                                <i class="fa fa-phone-alt text-brand me-2"></i>+91 90871 00224<br>
+                                <i class="fa fa-phone-alt text-brand me-2"></i>+91 90871 00225 
+                            </p>
+                        </div>
+                        <div class="col-md-4 wow zoomIn" data-wow-delay="0.7s">
+                            <h5 class="section-title ff-secondary fw-normal pb-3">Email</h5>
+                            <p><i class="fa fa-envelope-open text-brand me-2"></i>zaxoclothing@gmail.com</p>
+                        </div>
+                        <div class="col-md-4 wow zoomIn" data-wow-delay="0.1s">
+                            <h5 class="section-title ff-secondary fw-normal pb-3">Location</h5>
+                            <p><i class="bi bi-geo-alt-fill text-brand me-2"></i>446/1, 1st Floor, Athipalayam Road,<br>Behind RVR Oil Store, Athipalayam Privu,<br>Coimbatore - 641 006.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <iframe class="position-relative rounded w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.8892838219567!2d76.97930922045599!3d11.046927030122866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8586d9a4ac24f%3A0x58b1466a13f1949d!2sAthipalayam%20Pirivu%2C%20Ganapathy%2C%20Coimbatore%2C%20Tamil%20Nadu%20641006!5e0!3m2!1sen!2sin!4v1705388562948!5m2!1sen!2sin" frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <div class="wow fadeInUp" data-wow-delay="0.2s">
+                        <form action="contact.php" method="post">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" name="name" required>
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" name="email" required>
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="Your Phone"  name="phone" required>
+                                        <label for="subject">Phone</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px" name="comments" required></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-brand w-100 py-3" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-5 col-md-6">
+                <h4 class="mb-4 footer-head">Zaxo Clothing</h4>
+                <p class="footer-color">Discover timeless elegance with Zaxo Clothing, where fashion meets sophistication. Our curated collection showcases the perfect blend of style and comfort, designed to elevate your everyday wardrobe. Immerse yourself in quality craftsmanship and sustainable fashion that transcends trends. Join us in redefining your fashion journey with Zaxo Clothing – where every piece tells a story of enduring style.</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="mb-4 footer-head">Quick Links</h4>
+                <a class="btn btn-link" href="index.html">Home</a>
+                <a class="btn btn-link" href="#about">About Us</a>
+                <a class="btn btn-link" href="#categories">Products</a>
+                <a class="btn btn-link" href="embroidery-and-printing.html">Services</a>
+                <a class="btn btn-link" href="#contact">Contact Us</a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="mb-4 footer-head">Address</h4>
+                <p class="mb-2 footer-color"><i class="fa fa-map-marker-alt me-3"></i> 446/1, 1st Floor, Athipalayam Road,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Behind RVR Oil Store, Athipalayam Privu,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Coimbatore - 641 006.</p>
+                <p class="mb-2 footer-color"><i class="fa fa-phone-alt me-3"></i>+91 90871 00223</p>
+                <p class="mb-2 footer-color"><i class="fa fa-phone-alt me-3"></i>+91 90871 00224</p>
+                <p class="mb-2 footer-color"><i class="fa fa-phone-alt me-3"></i>+91 90871 00225</p>
+                <p class="mb-2 footer-color"><i class="fa fa-envelope me-3"></i>zaxoclothing@gmail.com</p>
+                <!-- <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href="" style="border-radius: 100px;"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="" style="border-radius: 100px;"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="" style="border-radius: 100px;"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="" style="border-radius: 100px;"><i class="fab fa-youtube"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <hr class="footer-hr">
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-12 text-center mb-3 mb-md-0 footer-color">
+                    &copy; Copyright 2023 <a class="border-bottom" href="index.html">Zaxo Clothing</a> , All Right Reserved. <a class="border-bottom" href="https://lizyweb.com" target="_blank">Website Designed By Lizyweb.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" 
+    aria-hidden="true" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12" style="display: flex;align-items: center;justify-content: center;">
+                                <form class="col-12 row g-3" action="contact.php" name="contactform" 
+                                method="post">
+                                    <div>
+                                        <h4 class="text-center" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Contact Us</h4>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label" style="color: black;">Name</label>
+                                        <input type="text" name="name" class="form-control" 
+                                        placeholder="Name" id="userName"
+                                            aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label" style="color: black;">Phone</label>
+                                        <input type="text" name="phone" class="form-control" 
+                                        placeholder="Phone" id="userName"
+                                            aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="userName" class="form-label" style="color: black;">Email</label>
+                                        <input type="email" name="email" class="form-control" 
+                                        placeholder="Email"
+                                            id="userName" aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                        <div class="col-12">
+                                        <label for="exampleInputEmail1" class="form-label" style="color: black;">Message</label>
+                                        <textarea name="comments" placeholder="Enter Your Message"
+                                            class="form-control" id="" rows="2" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" style="background-color: var(--brand);color: white;border: 1px solid var(--brand);padding: 8px 20px;border-radius: 3px;">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-lg-square rounded back-to-top" style="background-color: var(--brand);color: white;" data-aos="zoom-in"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Float Icons -->
+    <a href="tel:9087100225" class="float">
+        <i class='bx bxs-phone my-float'></i>
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=9087100225&text=I am interested in your services." class="float-2" target="_blank">
+        <i class='fab fa-whatsapp my-float'></i>
+    </a>
+
+    <!-- Template Main JS File -->
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/wow/wow.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="assets/slick/slick-animation.min.js"></script>
+    <script src="assets/fancybox/jquery.fancybox.min.js"></script>
+    <script src="assets/aos/aos.js"></script>
+    <script src="js/roberto.bundle.js"></script>
+    <script>
+        (function ($) {
+            "use strict";
+            
+            // Initiate the wowjs
+            new WOW().init();
+            
+        })(jQuery);
+    </script>
+    <script>
+        // Back to top button
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.back-to-top').fadeIn('slow');
+            } else {
+                $('.back-to-top').fadeOut('slow');
+            }
+            });
+            $('.back-to-top').click(function () {
+            $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+            return false;
+        });
+    </script>
+    <script>
+        // Animation on scroll
+        window.addEventListener('load', () => {
+            AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+            })
+        });
+    </script>
+</body>
+</html>
